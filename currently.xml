@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+     android:layout_height="match_parent"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:padding="16dp"
+    android:stretchColumns="*"
+    >
+
+    <TableRow>
+        <Button
+            android:id="@+id/more_details"
+            android:text="@string/more_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/view_map"
+            android:text="@string/view_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/fb_btn"
+            android:src="@drawable/fb_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/weather_icon"
+            android:layout_span="3"
+            android:layout_width="150dp"
+            android:src="@drawable/snow"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/summary"
+            android:layout_span="3"
+            android:text="Clear in LosAngeles, CA"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_span="3"
+            android:gravity="center"
+            android:text="53"
+            android:textSize="40dp"
+            android:paddingTop="10dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/min_and_max"
+            android:layout_span="3"
+            android:text=""
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+    </TableRow>
+    <TableRow
+        >
+        <TextView
+            android:text="@string/precipitation"
+            style="@style/currently_table"/>
+        <TextView />
+        <TextView
+            android:id="@+id/precipitation"
+            style="@style/currently_table"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/chance_of_rain"
+            style="@style/currently_table"/>
+        <TextView />
+        <TextView
+            android:id="@+id/chance_of_rain"
+            style="@style/currently_table"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/wind_speed"
+            style="@style/currently_table"/>
+        <TextView />
+        <TextView
+            android:id="@+id/wind_speed"
+            style="@style/currently_table"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/dew_point"
+            style="@style/currently_table"/>
+        <TextView />
+        <TextView
+            android:id="@+id/dew_point"
+            style="@style/currently_table"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/humidity"
+            style="@style/currently_table"/>
+        <TextView />
+        <TextView
+            android:id="@+id/humidity"
+            style="@style/currently_table"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/visibility"
+            style="@style/currently_table"/>
+        <TextView />
+        <TextView
+            android:id="@+id/visibility"
+            style="@style/currently_table"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/sunrise"
+            style="@style/currently_table"/>
+        <TextView />
+        <TextView
+            android:id="@+id/sunrise"
+            style="@style/currently_table"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/sunset"
+            style="@style/currently_table"/>
+        <TextView />
+        <TextView
+            android:id="@+id/sunset"
+            style="@style/currently_table"/>
+    </TableRow>
+
+
+
+</TableLayout>
+</ScrollView>
