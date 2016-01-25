@@ -7,3 +7,5 @@ I independently transplanted the weather forecast service from web to android.
 Building from zero using Java language within Android Studio, I got familiar with android development, such as handling users’ input, switching between activities and fragment, tuning and designing UI interface, using Facebook SDK and AERIS Map SDK, etc. 
 
 Because of size limit, I only uploaded some core source code.
+
+Include: about.java, currently.java, MainActivity.java, MapActivity.java, moreDetails.java
