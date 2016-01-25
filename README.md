@@ -8,4 +8,4 @@ Building from zero using Java language within Android Studio, I got familiar wit
 
 Because of size limit, I only uploaded some core source code.
 
-Include: about.java, currently.java, MainActivity.java, MapActivity.java, moreDetails.java, about.xml, currently.xml, activity_main.xml, content_main.xml, map_container.xml, map.xml, moredetails.xml, next7days.xml, next24hours.xml
+Include: about.java, currently.java, MainActivity.java, MapActivity.java, moreDetails.java, about.xml, currently.xml, activity_main.xml, content_main.xml, map_container.xml, map.xml, moredetails.xml, next7days.xml, next24hours.xml, colors.xml, strings.xml, dimens.xml, styles.xml
