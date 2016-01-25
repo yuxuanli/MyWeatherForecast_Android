@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">WeatherForecastInAndroid</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_header">Forecast Search</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="state_prompt">Choose a country</string>
+    <string name="degree">Degree</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="celsius">Celsius</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="about">About</string>
+    <string name="powered_by">Powered By</string>
+
+
+
+    <string-array name="state_arrays">
+        <item>Select State</item>
+        <item>AL</item>
+        <item>AR</item>
+        <item>AZ</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>DC</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+
+    <string name="more_details">MORE DETAILS</string>
+    <string name="view_map">VIEW MAP</string>
+    <string name="precipitation">Precipitation</string>
+    <string name="chance_of_rain">Chance of Rain</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="dew_point">Dew Point</string>
+    <string name="humidity">Humidity</string>
+    <string name="visibility">Visibility</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+
+    <string name="next24hours">NEXT 24 HOURS</string>
+    <string name="next7days">NEXT 7 DAYS</string>
+
+    <string name="time_header">Time</string>
+    <string name="summary">Summary</string>
+    <string name="temp">Temp</string>
+
+    <string name="facebook_app_id">689819854488176</string>
+    <string name="googleMap_apiKey">AIzaSyA4JcS-6tn_LvkJuQT_jiEuahfqJS7BYik</string>
+    <string name="aeris_client_id">BmGDakxdDWALRuyYfhJeH</string>
+    <string name="aeris_client_secret">VL9txIEF5KRCW7luoup3NeV99wu29MU6AYMsc4Sc</string>
+
+</resources>
